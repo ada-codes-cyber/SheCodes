@@ -5,36 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SheCodes</title>
     <style>
-        h1{
-            color: red;
-            font-size: 48px;
-            text-decoration: underline;
-            font-weight: 50;
-        }
+      body {
+        background-color: #f5f0fe;
+      }
+      h1 {
+        color: #885df1;
+        font-size: 48px;
+        text-decoration: underline;
+        font-weight: 300;
+        text-align: center;
+      }
+
+      h2 {
+        color: #272044;
+        text-align: center;
+        font-weight: normal;
+      }
+
+      .button {
+        background-color: transparent;
+        color: #885df1;
+        padding: 15px 20px;
+        font-size: 16px;
+        margin: 30px auto;
+        display: block;
+        border-radius: 40px;
+        text-decoration: none;
+        border: 1px solid #885df1;
+        transition: all 150ms ease-in-out;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+        
+      }
+
+      button:hover{
+
+        background: #885df1;
+        color: white;
+      }
+
+      .coders {
+        color: blue;
+        cursor: pointer;
+      }
+      .courses {
+        color: red;
+        cursor: pointer;
+      }
+
+      .stories {
+        color: green;
+        cursor: pointer;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      img {
+        width: 300;
+        display: block;
+        margin: auto;
+      }
+
+      ul {
+        list-style: none;
+        text-align: center;
+      }
+
+      li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      div{
+        text-align: center;
+        font-size: 12px;
+      }
+      .message{
+        color: #885df1;
+      }
+      .social{
+        color: #885df1;
+      }
     </style>
   </head>
   <body>
-    <h1>SheCodes</h1>
+    <h1><strong>SheCodes</strong></h1>
+    <h2>Coding Workshop</h2>
+    <button class="button">Apply Now</button>
     <ul>
       <li>
-        <a href="https://www.shecodes.io/students" target="_blank"> Coders </a>
+        <a
+          class="coders"
+          href="https://www.shecodes.io/students"
+          target="_blank"
+        >
+          Coders
+        </a>
       </li>
       <li>
-        <a href="https://www.shecodes.io/workshops" target="_blank">
+        <a
+          class="courses"
+          href="https://www.shecodes.io/workshops"
+          target="_blank"
+        >
           Courses
         </a>
       </li>
       <li>
-        <a href="https://www.shecodes.io/stories " target="_blank"> Stories </a>
+        <a
+          class="stories"
+          href="https://www.shecodes.io/stories "
+          target="_blank"
+        >
+          Stories
+        </a>
       </li>
     </ul>
     <hr />
     <h3>
       More Info
+      <br />
       <br /><img
         src="https://as2.ftcdn.net/v2/jpg/05/63/72/03/1000_F_563720356_5IyAJcmoxOp22A5ehdxfZJ4RR9doy6VB.jpg"
         width="400"
       />
     </h3>
+    <div><span class="message">Email:</span>hello@shecodes.io<span class="social"> Instagram:</span>@shecodes.io</div>
   </body>
 </html>
